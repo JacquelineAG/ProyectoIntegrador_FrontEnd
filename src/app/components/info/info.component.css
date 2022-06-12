@@ -7,8 +7,8 @@ div {
     text-align: left;
 }
 
-/*Ubicación Foto de Perfil */
-@media (min-width: 576px) {
+/*Ubicación Foto de Perfil y Optimización para Celulares*/
+@media (min-width: 200px) {
     #imgperfil {
         position:absolute;
         width: 15%;
