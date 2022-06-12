@@ -1,0 +1,14 @@
+.row {
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.contenedor {
+    width: auto;
+
+}
+
+.parte1 {
+    display:inline-block;
+    text-align: justify;
+}
