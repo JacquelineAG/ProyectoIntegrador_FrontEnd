@@ -8,7 +8,7 @@ div {
 }
 
 /*Ubicación Foto de Perfil */
-@media (min-width: 576px){
+@media (min-width: 576px) {
     #imgperfil {
         position:absolute;
         width: 15%;
