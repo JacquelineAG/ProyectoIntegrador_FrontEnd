@@ -13,12 +13,13 @@ div {
         position:absolute;
         width: 15%;
         border-radius: 100%;
-        top: 330px;
+        top: 450px;
     }
 }
 
 /*Formato Nombre*/
 #nombre {
     font-weight: bold;
-    margin-top: 10%;
+    margin-top: 5%;
+    font-size: 30px;
 }
