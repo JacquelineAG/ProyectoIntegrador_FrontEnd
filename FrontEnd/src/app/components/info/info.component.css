@@ -10,8 +10,8 @@ div {
 /*Ubicación Foto de Perfil y Optimización para Celulares*/
 @media (min-width: 200px) {
     #imgperfil {
-        position:absolute;
-        width: 15%;
+        position:sticky-top;
+        width: 50%;
         border-radius: 100%;
         top: 450px;
     }

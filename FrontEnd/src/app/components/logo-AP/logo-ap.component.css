@@ -13,7 +13,7 @@
 }
 
 img {
-    width: 25px;
+    width: 30px;
 }
 
 /* Optimización para Celulares */
@@ -28,4 +28,26 @@ img {
         flex-direction: column;
         align-items: center;
     }
+}
+
+/* Separacion íconos */
+
+#instagram {
+    margin-right: 10px;
+}
+
+#facebook {
+    margin-right: 10px;
+}
+
+#github {
+    margin-right: 10px;
+}
+
+#linkedin {
+    margin-right: 10px;
+}
+
+#twitter {
+    margin-right: 20px;
 }
