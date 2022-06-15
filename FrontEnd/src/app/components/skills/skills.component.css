@@ -2,10 +2,3 @@
     background-color: whitesmoke;
     padding: 20px;
 }
-
-/*Optimización para Celulares*/
-@media (min-width: 200px) {
-    #progreso {
-        columns:auto;
-    }
-}
