@@ -1,4 +1,7 @@
-img  {
+/* Formato del Banner "Bienvenido/a ...*/
+img {
     max-width: 100%;
     height: auto;
+    margin-left: 12px;
 }
+
