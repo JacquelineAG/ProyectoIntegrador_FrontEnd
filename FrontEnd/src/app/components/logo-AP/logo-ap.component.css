@@ -4,15 +4,18 @@
     align-items: center;
 }
 
+/* Ubicación iconos de Redes Sociales */
 .redes {
     margin-right: 1em;
 }
 
+/* Ubicación Logo AP */
 #logo-AP{
     margin-left: 30px;
     width: 160px;
 }
 
+/* Ubicación Login btn */
 button {
     margin-right: 20px;
 }
@@ -21,7 +24,7 @@ img {
     width: 30px;
 }
 
-/* Optimización para Celulares */
+/* Optimización Celular */
 
 @media (max-width: 200px) {
     .container {
