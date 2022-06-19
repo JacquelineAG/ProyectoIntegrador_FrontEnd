@@ -13,3 +13,12 @@ div {
 h1,h3 {
     display: inline;
 }
+
+#fecha {
+    margin-left: 65px;
+    color: grey;
+}
+
+#descripcion {
+    margin-left: 65px;
+}

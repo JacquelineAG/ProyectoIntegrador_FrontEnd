@@ -1,11 +1,28 @@
 .row {
     padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding-bottom: 0;
+    margin: 20px;
 }
 
 div {
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 h1,h3 {
     display: inline;
+}
+
+#fecha {
+    margin-left: 65px;
+    color: grey;
+}
+
+#descripcion {
+    margin-left: 65px;
+}
+
+#exp2 {
+    margin-left: 65px;
 }
