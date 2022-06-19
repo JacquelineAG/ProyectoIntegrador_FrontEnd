@@ -1,4 +1,8 @@
 .row {
-    background-color: whitesmoke;
+    background-color: white;
     padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding-bottom: 0;
+    margin: 20px;
 }
