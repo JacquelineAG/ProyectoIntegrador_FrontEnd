@@ -9,6 +9,27 @@
     margin-right: 1em;
 }
 
+/* Efectos sobre ícono */
+#instagram:hover {
+    opacity: 0.7;
+}
+
+#facebook:hover {
+    opacity: 0.7;
+}
+
+#linkedin:hover {
+    opacity: 0.7;
+}
+
+#github:hover {
+    opacity: 0.7;
+}
+
+#discord:hover {
+    opacity: 0.7;
+}
+
 /* Ubicación Logo AP */
 #logo-AP {
     margin-left: 30px;
