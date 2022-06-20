@@ -1,28 +1,20 @@
-.row {
-    background-color: black;    
-}
-
 /* Formato del copyright */
-.copyright {
+.d-flex {
     margin-left: 40px;
     color: white;
     text-align: center;
-    margin-bottom: 20px;
-    font-size: 15px;
+    font-size: 13px;
+}
+
+/* Formato del Menu de Navegación */
+.row {
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: black;
 }
 
 .footer {
     width: 100%;
-}
-
-/* Formato del Menu de Navegación */
-.menu {
-    width: 100%;
     max-width: 1200px;
-    display: grid;
-    grid-template-columns:repeat(9,1fr);
-    text-align: center;
-    padding: 40px;
-    margin: auto;
 }
-
