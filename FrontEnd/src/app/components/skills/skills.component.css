@@ -3,6 +3,45 @@
     padding: 20px;
     border: 1px solid lightgray;
     border-radius: 10px;
-    padding-bottom: 0;
+    padding-bottom: 20px;
     margin: 20px;
+}
+
+* {
+    box-sizing: border-box
+}
+
+/* Tamaño y fondo de las barras */
+.container {
+    width: 100%;
+    background-color: #ddd;
+}
+
+/* Texto porcentaje */
+.skills {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
+    color: white;
+}
+
+.html {
+    width: 80%;
+    background-color: #dc3500;
+}
+
+.css {
+    width: 80%;
+    background-color: #dc3540;
+}
+
+.js {
+    width: 65%;
+    background-color: #dc3560;
+}
+
+.ang {
+    width: 70%;
+    background-color: #dc3580;
 }
