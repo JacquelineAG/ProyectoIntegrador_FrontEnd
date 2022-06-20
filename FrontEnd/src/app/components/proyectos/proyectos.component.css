@@ -8,7 +8,7 @@
 }
 
 .proyectointegrador {
-    display:inline-block;
+    display: inline-block;
     text-align: justify;
 }
 
@@ -20,9 +20,9 @@
     margin-left: 50px;
 }
 
-.img-fluid{
+.img-fluid {
     max-width: 30%;
-    height:auto;
+    height: auto;
     padding-left: 20px;
     box-shadow: 5px 5px 10px whitesmoke;
 }
