@@ -15,7 +15,6 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { IdiomasComponent } from './components/idiomas/idiomas.component';
 import { CursosComponent } from './components/cursos/cursos.component';
-import { LoaderComponent } from './components/loader/loader.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +30,6 @@ import { LoaderComponent } from './components/loader/loader.component';
     FooterComponent,
     IdiomasComponent,
     CursosComponent,
-    LoaderComponent
   ],
   imports: [
     BrowserModule,
