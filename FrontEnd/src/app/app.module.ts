@@ -16,6 +16,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { IdiomasComponent } from './components/idiomas/idiomas.component';
 import { CursosComponent } from './components/cursos/cursos.component';
 import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './components/home/home.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +33,8 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     IdiomasComponent,
     CursosComponent,
+    HomeComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
