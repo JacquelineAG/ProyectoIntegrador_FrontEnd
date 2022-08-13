@@ -19,23 +19,23 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
-public class PersonaController {
+@CrossOrigin(origins = "http://localhost:4200/")
+public class PersonaController{
     @Autowired IPersonaService ipersonaService;
     
-    @GetMapping("/personas/traer/perfil")
-    public Persona findPersona() {
-        return ipersonaService.findPersona((long)1);
+    @GetMapping("/personas/traer")
+    public List<Persona> getPersona(){
+        return ipersonaService.getPersona();
     }
     
-    @PostMapping("/personas/crear/perfil")
-    public String createPersona(@RequestBody Persona persona) {
+    @PostMapping("/personas/crear")
+    public String createPersona(@RequestBody Persona persona){
         ipersonaService.savePersona(persona);
         return "El usuario fue creado correctamente.";
     }
     
-    @DeleteMapping("/personas/borrar/{id})")
-    public String deletePersona(@PathVariable Long id) {
+    @DeleteMapping("/personas/borrar/{id}")
+    public String deletePersona(@PathVariable Long id){
         ipersonaService.deletePersona(id);
         return "El usuario fue eliminado correctamente.";
     }
@@ -54,5 +54,10 @@ public class PersonaController {
     
     ipersonaService.savePersona(persona);
     return persona;
+    }
+    
+    @GetMapping("/personas/traer/perfil")
+    public Persona findPersona(){
+        return ipersonaService.findPersona((long)1);
     }
 }

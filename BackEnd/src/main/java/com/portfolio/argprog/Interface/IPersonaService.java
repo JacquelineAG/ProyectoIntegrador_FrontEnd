@@ -12,15 +12,12 @@ public interface IPersonaService {
     public List<Persona> getPersona(); 
     
     // Guardar obj Persona
-    
     public void savePersona(Persona persona);
     
     // Eliminar obj por Id
-    
     public void deletePersona(Long id);
     
     // Buscar Persona por Id
-    
     public Persona findPersona(Long id);
     
     

@@ -13,9 +13,8 @@ import javax.validation.constraints.Size;
 import lombok.Getter;
 import lombok.Setter;
 
+@Getter @Setter
 @Entity
-@Getter
-@Setter
 
 public class Persona {
     @Id
