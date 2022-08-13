@@ -24,11 +24,11 @@ public class PersonaController {
     @Autowired IPersonaService ipersonaService;
     
     @GetMapping("/personas/traer/perfil")
-    public List<Persona> getPersona() {
-        return ipersonaService.getPersona();
+    public Persona findPersona() {
+        return ipersonaService.findPersona((long)1);
     }
     
-    @PostMapping("/personas/crear/")
+    @PostMapping("/personas/crear/perfil")
     public String createPersona(@RequestBody Persona persona) {
         ipersonaService.savePersona(persona);
         return "El usuario fue creado correctamente.";
@@ -40,7 +40,7 @@ public class PersonaController {
         return "El usuario fue eliminado correctamente.";
     }
     
-    @PutMapping("/persona/editar/{id}")
+    @PutMapping("/personas/editar/{id}")
     public Persona editPersona(@PathVariable Long id,
             @RequestParam("nombre") String nuevoNombre,
             @RequestParam("apellido") String nuevoApellido,
