@@ -24,7 +24,10 @@
                         id="discord"></a>
 
                 <!-- Button LOGIN-->
-                <button type="button" class="btn btn-outline-light" (click)="login()"> LOGIN </button>
+                <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged"> INGRESAR </button>
+
+                <!-- Button LOGOUT-->
+                <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged"> CERRAR SESION </button>
             </div>
         </div>
     </div>
