@@ -11,7 +11,7 @@ const routes: Routes = [
   {path:'login', component: LoginComponent},
   {path:'error404', component: Error404Component},
   {path: 'nuevaexp', component: NewExperienciaComponent},
-  {path:'editexp/:id', component:EditExperienciaComponent}
+  {path:'editexp', component:EditExperienciaComponent}
 ];
 
 @NgModule({
