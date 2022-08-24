@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { SExperienciaService } from 'src/app/service/s-experiencia.service';
 import { Experiencia } from 'src/app/model/experiencia';
+import { SExperienciaService } from 'src/app/service/s-experiencia.service';
 import { TokenService } from 'src/app/service/token.service';
 
 @Component({
@@ -25,18 +25,18 @@ export class ExperienciaComponent implements OnInit {
   }
 
   cargarExperiencia(): void {
-    this.sExperiencia.lista().subscribe(data => {this.experiencia = data;})
+    this.sExperiencia.lista().subscribe(data => { this.experiencia = data; })
   }
 
-  delete (id?: number){
+  delete(id?: number){
     if(id != undefined){
-      this.sExperiencia.delete(id).subscribe{
+      this.sExperiencia.delete(id).subscribe(
         data => {
           this.cargarExperiencia();
         }, err => {
           alert("No se pudo borrar la experiencia.");
         }
-      }
+      )
     }
   }
 }

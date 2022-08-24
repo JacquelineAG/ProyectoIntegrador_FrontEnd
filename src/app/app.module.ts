@@ -21,6 +21,8 @@ import { LoginComponent } from './components/login/login.component';
 import { Error404Component } from './components/error404/error404.component';
 import { FormsModule } from '@angular/forms';
 import { interceptorProvider } from './service/interceptor-service';
+import { NewExperienciaComponent } from './components/experiencia/new-experiencia.component';
+import { EditExperienciaComponent } from './components/experiencia/edit-experiencia.component';
 
 @NgModule({
   declarations: [
@@ -39,13 +41,15 @@ import { interceptorProvider } from './service/interceptor-service';
     HomeComponent,
     LoginComponent,
     Error404Component,
+    NewExperienciaComponent,
+    EditExperienciaComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgCircleProgressModule.forRoot({}),
     HttpClientModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [
   interceptorProvider
