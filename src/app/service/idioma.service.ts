@@ -6,7 +6,7 @@ import { Idioma } from '../model/idioma';
 @Injectable({
   providedIn: 'root'
 })
-export class CursosService {
+export class IdiomaService {
   URL = 'http://localhost:8080/idioma/';
 
   constructor(private httpClient : HttpClient) { }
