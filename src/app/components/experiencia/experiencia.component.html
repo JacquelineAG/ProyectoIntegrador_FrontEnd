@@ -18,13 +18,15 @@
                         <h5>{{Experiencia.nombreE}}</h5>
                     </td>
                     <td>{{Experiencia.descripcionE}}</td>
+                    <td>{{Experiencia.fechaE}}</td>
+                    <td>{{Experiencia.tareasE}}</td>
                     <td *ngIf="isLogged">
                         <button class="btn btn-outline-secondary" routerLink="/editexp/{{Experiencia.id}}">
-                        <i class="bi bi-pencil-fill"></i> EDITAR</button>
+                        <i class="bi bi-pencil-fill"></i></button>
                     </td>
                     <td *ngIf="isLogged">
                         <button class="btn btn-outline-danger" (click)="delete(Experiencia.id)">
-                        <i class="bi bi-trash-fill"></i> BORRAR</button>
+                        <i class="bi bi-trash-fill"></i></button>
                     </td>
                 </tr>
             </tbody>

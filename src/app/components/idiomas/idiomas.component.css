@@ -4,17 +4,9 @@
     padding: 20px;
     padding-bottom: 20px;
     margin: 20px;
+    overflow-wrap: anywhere;
 }
 
 div {
     background-color: white;
-}
-
-h1,
-h3 {
-    display: inline;
-}
-
-#competencia {
-    color: grey;
 }

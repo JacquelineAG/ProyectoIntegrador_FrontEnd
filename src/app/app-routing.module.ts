@@ -13,17 +13,17 @@ import { NewidiomaComponent } from './components/idiomas/newidioma.component';
 import { LoginComponent } from './components/login/login.component';
 
 const routes: Routes = [
-  {path:'', component: HomeComponent},
-  {path:'login', component: LoginComponent},
-  {path:'error404', component: Error404Component},
-  {path: 'nuevaexp', component: NewExperienciaComponent},
-  {path:'editexp/:id', component:EditExperienciaComponent},
-  {path:'nuevaedu', component: NeweducacionComponent},
-  {path:'nuevoidi', component: NewidiomaComponent},
-  {path:'nuevocur', component: NewcursosComponent},
-  {path:'editedu/:id', component:EditeducacionComponent},
-  {path:'editcur/:id', component:EditcursosComponent},
-  {path:'editidi/:id', component:EditidiomaComponent}
+  { path: '', component: HomeComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'error404', component: Error404Component },
+  { path: 'nuevaexp', component: NewExperienciaComponent },
+  { path: 'editexp/:id', component: EditExperienciaComponent },
+  { path: 'nuevaedu', component: NeweducacionComponent },
+  { path: 'nuevoidi', component: NewidiomaComponent },
+  { path: 'nuevocur', component: NewcursosComponent },
+  { path: 'editedu/:id', component: EditeducacionComponent },
+  { path: 'editcur/:id', component: EditcursosComponent },
+  { path: 'editidi/:id', component: EditidiomaComponent }
 ];
 
 @NgModule({

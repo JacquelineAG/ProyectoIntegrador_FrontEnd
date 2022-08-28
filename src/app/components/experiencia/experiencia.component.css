@@ -4,26 +4,9 @@
     border-radius: 10px;
     padding-bottom: 20px;
     margin: 20px;
+    overflow-wrap: anywhere;
 }
 
 div {
     background-color: white;
-}
-
-h1,
-h3 {
-    display: inline;
-}
-
-#fecha {
-    margin-left: 65px;
-    color: grey;
-}
-
-#descripcion {
-    margin-left: 65px;
-}
-
-#exp2 {
-    margin-left: 65px;
 }

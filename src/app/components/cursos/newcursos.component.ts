@@ -11,6 +11,7 @@ import { CursosService } from 'src/app/service/cursos.service';
 export class NewcursosComponent implements OnInit {
   nombreE: string;
   descripcionE: string;
+  fechaE: string;
 
   constructor(private cursosS: CursosService, private router: Router) { }
 
@@ -18,7 +19,7 @@ export class NewcursosComponent implements OnInit {
   }
 
   onCreate(): void{
-    const cursos = new Cursos(this.nombreE, this.descripcionE);
+    const cursos = new Cursos(this.nombreE, this.descripcionE, this.fechaE);
     this.cursosS.save(cursos).subscribe(
       data =>{
         alert("Curso añadido correctamente.");
