@@ -7,7 +7,7 @@ import { Idioma } from '../model/idioma';
   providedIn: 'root'
 })
 export class IdiomaService {
-  URL = 'http://localhost:8080/idioma/';
+  URL = 'https://backargprog.herokuapp.com/idioma/';
 
   constructor(private httpClient : HttpClient) { }
 
