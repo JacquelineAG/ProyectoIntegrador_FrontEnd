@@ -7,7 +7,7 @@ import { Cursos } from '../model/cursos';
   providedIn: 'root'
 })
 export class CursosService {
-  URL = 'https://backargprog.herokuapp.com/cursos';
+  URL = 'https://backargprog.herokuapp.com/cursos/';
 
   constructor(private httpClient : HttpClient) { }
 
