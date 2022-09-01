@@ -9,7 +9,7 @@ import { LoginUsuario } from '../model/login-usuario';
   providedIn: 'root'
 })
 export class AuthService {
-  authURL = 'https://backargprog.herokuapp.com/auth/';
+  authURL = 'https://argprogbckend.herokuapp.com/auth/';
 
   constructor(private httpClient: HttpClient) { }
 
