@@ -12,23 +12,11 @@
 }
 
 /* Efectos sobre ícono */
-#instagram:hover {
-    opacity: 0.4;
-}
-
-#facebook:hover {
-    opacity: 0.4;
-}
-
 #linkedin:hover {
     opacity: 0.4;
 }
 
 #github:hover {
-    opacity: 0.4;
-}
-
-#discord:hover {
     opacity: 0.4;
 }
 
@@ -40,7 +28,7 @@
 
 /* Ubicación Login btn */
 button {
-    font-size: 15px;
+    font-size: 10px;
     margin-right: 20px;
 }
 
@@ -50,24 +38,12 @@ img {
 
 /* Separacion íconos */
 
-#instagram {
-    margin-right: 10px;
-}
-
-#facebook {
-    margin-right: 10px;
-}
-
 #linkedin {
     margin-right: 10px;
 }
 
 #github {
     margin-right: 10px;
-}
-
-#discord {
-    margin-right: 30px;
 }
 
 @keyframes nav-load {

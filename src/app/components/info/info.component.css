@@ -19,6 +19,7 @@ div {
 		top: 390px;
 		left: 3%;
 		margin-left: 10px;
+		border: 10px solid #ff0051;
 	}
 }
 
@@ -30,6 +31,7 @@ div {
 		top: 200px;
 		left: 38%;
 		margin-left: 10px;
+		border: 5px solid #ff0051;
 	}
 }
 
